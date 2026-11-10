@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Generated output (voiceovers, music, images, videos)
+music/*
+images/*
+videos/*
+!music/.gitkeep
+!images/.gitkeep
+!videos/.gitkeep
+
+# Backup files produced by voiceover-parser.py
+*.bak
